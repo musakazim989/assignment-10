@@ -1,0 +1,27 @@
+Repository link: 
+============================
+============================
+
+NextJS: 
+
+Terminology: 
+
+1.	To create simple route after domain name like www.example.com/art
+        a.	Create a folder under app with name art 
+        b.	Inside of art folder add page.js file which is mandatory with the mentioned file name.
+        c.	Write necessary function.
+        d.	Form above the folder name is the path name.
+
+2.	To create nested route be like www.example.com/art/photogallery
+        a.	Follow simple route first
+        b.	Remove page.js from art folder
+        c.	Inside the art folder add another nested folder with name phtogallery
+        d.	Inside of photogallery folder add page.js file.
+        e.	Write necessary function.
+        f.	The folder name is to be like art/photogallery
+        
+3.	Nesting with folder but don’t want to show with route a specific folder
+        a.	Write folder name with (marketing) 
+        b.	Inside (marketing) folder add page.js
+        c.	Write necessary function.
+        d.	The is like that where the marketing path is not visible www.example.com/brand
